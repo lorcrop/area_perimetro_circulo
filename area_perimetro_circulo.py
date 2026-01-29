@@ -1,3 +1,4 @@
+# Programa para calcular el area y perimetro de un circulo
 #inicio
 r = input("digite el radio del círculo: ")
 π = 3.14159

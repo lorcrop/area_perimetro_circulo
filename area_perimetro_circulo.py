@@ -1,17 +1,29 @@
-#inicio
-r = input("digite el radio del círculo: ")
-π = 3.14159
-a = 0
-p = 0
-
+# Programa para calcular el area y el perimetro de un circulo 
+import math
+print("-----------------------------")
+print("Area y perimetro del cirfculo")
+print("-----------------------------")
+r= input("Digite el valor del Radio ")
 r=int(r)
 
-a = π * (r * r)
-p = 2 * π * r
+#---------
+#procesing
+#---------
 
-print("el área del círculo es: ")
-print(a)
-print("el perímetro del círculo es: ")
-print(p)
+a= math.pi*r*r
+p=2*math.pi*r
 
-print("(presione Enter para salir)")
+#------
+#salida
+#------
+print("------------------")
+print("Los resultados son:")
+print("------------------")
+
+print("El area de el circulo es:"+str(a))
+
+print("El valor de el perimetro es:"+str(a))
+
+print("-----------------------------")
+print("Gracias por su comprencion :)")
+print("-----------------------------")
